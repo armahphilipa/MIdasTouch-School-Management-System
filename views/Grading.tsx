@@ -253,8 +253,8 @@ const Grading: React.FC<GradingProps> = ({ students, onAction }) => {
           {[
             { id: 'entry', label: 'Rankings', icon: Activity },
             { id: 'assessments', label: 'Scores', icon: Layers },
-            { id: 'reports', label: 'Builder', icon: FileCheck },
-            { id: 'transcripts', label: 'History', icon: ScrollText },
+            { id: 'reports', label: 'Report', icon: FileCheck },
+            { id: 'transcripts', label: 'Transcripts', icon: ScrollText },
             { id: 'config', label: 'Setup', icon: Settings },
           ].map(tab => (
             <button 
