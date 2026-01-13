@@ -67,7 +67,7 @@ const Layout: React.FC<LayoutProps> = ({
   }, []);
 
   const menuItems = [
-    { id: 'dashboard', label: 'Intelligence', icon: LayoutDashboard, roles: [UserRole.ADMIN, UserRole.TEACHER, UserRole.PARENT, UserRole.STUDENT] },
+    { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard, roles: [UserRole.ADMIN, UserRole.TEACHER, UserRole.PARENT, UserRole.STUDENT] },
     { id: 'sis', label: 'Registry', icon: Users, roles: [UserRole.ADMIN, UserRole.TEACHER] },
     { id: 'attendance', label: 'Attendance', icon: CalendarCheck, roles: [UserRole.ADMIN, UserRole.TEACHER, UserRole.PARENT] },
     { id: 'timetable', label: 'Timetable', icon: CalendarDays, roles: [UserRole.ADMIN, UserRole.TEACHER, UserRole.STUDENT] },
@@ -75,7 +75,7 @@ const Layout: React.FC<LayoutProps> = ({
     { id: 'archiving', label: 'Archiving', icon: HardDrive, roles: [UserRole.ADMIN, UserRole.TEACHER, UserRole.PARENT, UserRole.STUDENT] },
     { id: 'hr', label: 'Staffing', icon: Briefcase, roles: [UserRole.ADMIN, UserRole.TEACHER] },
     { id: 'health', label: 'Health', icon: HeartPulse, roles: [UserRole.ADMIN, UserRole.TEACHER, UserRole.PARENT, UserRole.STUDENT] },
-    { id: 'ecosystem', label: 'Ecosystem', icon: Trophy, roles: [UserRole.ADMIN, UserRole.TEACHER, UserRole.PARENT, UserRole.STUDENT] },
+    { id: 'ecosystem', label: 'Alumni', icon: Trophy, roles: [UserRole.ADMIN, UserRole.TEACHER, UserRole.PARENT, UserRole.STUDENT] },
     { id: 'grading', label: 'Academic', icon: GraduationCap, roles: [UserRole.ADMIN, UserRole.TEACHER, UserRole.PARENT, UserRole.STUDENT] },
     { id: 'communication', label: 'Messages', icon: MessageSquare, roles: [UserRole.ADMIN, UserRole.TEACHER, UserRole.PARENT, UserRole.STUDENT] },
     { id: 'finance', label: 'Finance', icon: Wallet, roles: [UserRole.ADMIN] },
