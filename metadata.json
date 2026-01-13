@@ -1,0 +1,8 @@
+{
+  "name": "Midas Touch EduStream Pro - AI School Management",
+  "description": "An elite, AI-integrated school management ecosystem featuring real-time sync, automated grading, and the EduGenius intelligent administrative assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
