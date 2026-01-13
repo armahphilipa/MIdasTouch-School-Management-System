@@ -347,11 +347,6 @@ const Grading: React.FC<GradingProps> = ({ students, onAction }) => {
                               {calculateBECEAggregate(s.academicHistory)}
                            </div>
                         </td>
-                        <td className="px-10 py-10 text-right">
-                           <div className={`inline-block px-5 py-2 ${getBECEGrade(s.cumulativeAvg).color} text-white rounded-2xl font-black text-sm shadow-md uppercase tracking-widest`}>
-                             Grade {getBECEGrade(s.cumulativeAvg).grade}
-                           </div>
-                        </td>
                       </tr>
                     ))}
                  </tbody>
