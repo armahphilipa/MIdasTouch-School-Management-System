@@ -191,7 +191,7 @@ const Auth: React.FC<AuthProps> = ({ onLogin, allUsers, students }) => {
                  <div className="w-16 h-16 bg-indigo-600 rounded-2xl flex items-center justify-center text-white mb-8 shadow-xl group-hover:scale-110 transition-transform">
                     <ShieldCheck size={32} />
                  </div>
-                 <h3 className="text-2xl font-black text-white mb-2">Faculty & Staff</h3>
+                 <h3 className="text-2xl font-black text-white mb-2">Admin & Staff</h3>
                  <p className="text-slate-400 font-medium text-sm leading-relaxed mb-8">
                    Administrative portal for teachers, directors, and personnel. Authenticate via Staff Email.
                  </p>
